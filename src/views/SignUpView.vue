@@ -1,7 +1,6 @@
 <template>
   <div class="login-view">
     <div class="login-container">
-      Cadastro
       <TextInput type="text" ref="firstname" label="firstname" placeholder="Maria Santos" @change="isValidName"/>
       <TextInput type="text" ref="username" label="nome" placeholder="user_name" @change="isValidUser" :class="validUsername ? '': 'invalido'"/>
       <TextInput type="password" ref="password" label="senha" placeholder="******" @change="isValidPass" :class="validPassword ? '': 'invalido'"/>
