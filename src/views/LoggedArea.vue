@@ -13,7 +13,7 @@
   import Navbar from "../components/Navbar.vue";
   import SearchInput from "../components/input-forms/SearchInput.vue";
   import Table from "../components/table/Table.vue";
-  import CrudModal from "../components/crudModal.vue";
+  import CrudModal from "../components/CrudModal.vue";
   import Footer from "../components/Footer.vue";
 
   import { mapState, mapActions } from "pinia";
