@@ -1,0 +1,40 @@
+:root {
+  --white: #ffffff;
+  --primaria: #9a0531;
+  --secundaria: #b6b6b6;
+  --destaque: #1d1d1d;
+  --fonte-color: #212939;
+  --detalhes: #b1bbca;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Montserrat", sans-serif !important;
+  border: none;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--fonte-color);
+  overflow-x: hidden !important;
+ 
+}
+
+input {
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
