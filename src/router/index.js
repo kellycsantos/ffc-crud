@@ -6,16 +6,15 @@ import { useUserStore } from "../stores/user";
 import LoginView from "../views/LoginView.vue";
 import SignUpView from "../views/SignUpView.vue";
 import LoggedArea from "../views/LoggedArea.vue";
-import NotFound from "../views/Notfound.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {
-      path: "/:catchAll(.*)",
-      name: "not-found",
-      component: NotFound,
-    },
+    // {
+    //   path: "/:catchAll(.*)",
+    //   name: "not-found",
+    //   component: NotFound,
+    // },
     {
       path: "/",
       name: "home",
